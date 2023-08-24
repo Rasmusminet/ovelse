@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3%;
+}
+h1 {
+  text-align: center;
+}
+
+.piv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 450px));
+  gap: 1rem;
+}
+
+.piv h2 {
+  grid-column: 1/-1;
+  padding-top: 5%;
+}
+footer {
+  text-align: center;
+  padding-top: 5%;
+}
